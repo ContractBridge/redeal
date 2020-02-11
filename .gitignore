@@ -12,3 +12,4 @@ setup.cfg
 *.orig
 .coverage
 .gdb_history
+.idea/
