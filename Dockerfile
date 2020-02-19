@@ -6,4 +6,4 @@ RUN python -mpip install --user --upgrade git+https://github.com/folkengine/rede
 
 RUN apt-get purge -y git build-essential
 
-# cd ENTRYPOINT ["/root/.local/bin/redeal"]
+ENTRYPOINT ["/root/.local/bin/redeal"]
