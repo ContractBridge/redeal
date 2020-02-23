@@ -1,4 +1,4 @@
-.PHONY: build dbuild run
+.PHONY: build dbuild run venv
 
 all: run
 
@@ -11,3 +11,6 @@ dbuild:
 
 run:
 	docker run -i -t --rm folkengine/redeal
+
+venv:
+	virtualenv venv

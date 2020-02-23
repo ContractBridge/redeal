@@ -13,3 +13,4 @@ setup.cfg
 .coverage
 .gdb_history
 .idea/
+venv/
